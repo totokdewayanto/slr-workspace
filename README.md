@@ -54,13 +54,18 @@ slr-workspace/
 - ✅ GitHub repo: totokdewayanto/slr-workspace
 - ✅ Google Sheet SLR_Data — 5 sheets siap
 - ✅ GROQ API terkonfigurasi di OpenWorker
-- ⏳ **Google Docs** — klik [Connect](https://connect.composio.dev/link/lk_dcOK08RtHkJU) di browser
-- ⏳ **NotebookLM** — perlu `notebooklm login` ulang (token expired)
-- ⏳ **Local git push** — 403 auth mismatch (repo via Composio sudah terisi)
+- ✅ Google Docs template — [SLR Protocol](https://docs.google.com/document/d/1CNLY2k77co6YEuoPlBk4nuroPxFSrRNxcOPDXjDFFcQ/edit) (PRISMA-P)
+- ⏳ **NotebookLM** — perlu `notebooklm login` di terminal
+
+## Google Doc — SLR Protocol
+
+[SLR Protocol — [Topic Anda]](https://docs.google.com/document/d/1CNLY2k77co6YEuoPlBk4nuroPxFSrRNxcOPDXjDFFcQ/edit)
+
+Template PRISMA-P 2015 dengan 10 seksi: Rationale, Research Questions (PICOC), Search Strategy, Screening, Extraction, Quality Assessment, Synthesis, Timeline, References.
 
 ## Cara Pakai
 
-1. Jalankan `notebooklm login` di terminal untuk autentikasi ulang
-2. Buka link Google Docs di browser
+1. Jalankan `notebooklm login` di terminal
+2. Edit template SLR Protocol dengan topik Anda
 3. Mulai SLR: **"Bantu setup SLR tentang [topik]"**
 4. OpenWorker akan orchestrasi seluruh proses sesuai PRISMA 2020
